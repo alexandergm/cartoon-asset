@@ -1170,7 +1170,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 465494, guid: 83f55f2b7c306486ca1a39922bca1e62, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 465494, guid: 83f55f2b7c306486ca1a39922bca1e62, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1618,7 +1618,7 @@ MonoBehaviour:
   _starsController: {fileID: 34788400}
   _animals:
     Pig: {fileID: 1263665951}
-    Bird: {fileID: 0}
+    Bird: {fileID: 1037259154}
     Cat: {fileID: 0}
 --- !u!95 &536972595
 Animator:
@@ -2934,6 +2934,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1037259156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037259153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a90b0b23614615867837cbdb9c9267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1050210701
 PrefabInstance:
   m_ObjectHideFlags: 0

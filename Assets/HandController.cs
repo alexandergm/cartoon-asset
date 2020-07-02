@@ -18,6 +18,9 @@ namespace DefaultNamespace
             _animals.Pig.SetTrigger("Start");
         }
         
-        
+        public void StartBird()
+        {
+            _animals.Bird.SetTrigger("Start");
+        }
     }
 }
