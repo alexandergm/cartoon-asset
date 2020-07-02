@@ -11,6 +11,7 @@ public class StarsController : MonoBehaviour
     private Image _currentStar;
     private int _countStar;
     private bool _isTimerStopped = true;
+    private float _fillAmount;
     void Start()
     {
         if (_starDisabled)
@@ -34,6 +35,7 @@ public class StarsController : MonoBehaviour
             if (_countStar < _stars.Length)
             {
                 _currentStar = _stars[_countStar];
+                _currentStar.fillAmount = _fillAmount;
                 return;
             }
 
@@ -44,6 +46,7 @@ public class StarsController : MonoBehaviour
 
     public void ChangeFillAmount(float fill)
     {
+        _fillAmount = _currentStar.fillAmount;
         _currentStar.fillAmount = fill;
     }
 
