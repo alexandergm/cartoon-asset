@@ -25,9 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8afa8026-423b-4096-848a-446bfcd01407" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/BirdAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BirdAnim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CatAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CatAnimation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PigAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PigAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CarMove.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +52,9 @@
         <option value="$PROJECT_DIR$/Assets/Animals.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimalDisable.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeColorCar.cs" />
-        <option value="$PROJECT_DIR$/Assets/CarMove.cs" />
         <option value="$PROJECT_DIR$/Assets/StarsController.cs" />
         <option value="$PROJECT_DIR$/Assets/HandController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CarMove.cs" />
       </list>
     </option>
   </component>

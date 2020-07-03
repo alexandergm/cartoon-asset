@@ -34,7 +34,7 @@ public class CarMove : MonoBehaviour
         
         if (!_isCarStopped)
         {
-            _cinematicController.StartLevel();
+            if (_cinematicController != null) _cinematicController.StartLevel();
             _isCarStopped = true;
         }
         
