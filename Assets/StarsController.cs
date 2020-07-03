@@ -55,4 +55,9 @@ public class StarsController : MonoBehaviour
         if (!_starDisabled)
             _isTimerStopped = false;
     }
+
+    public void Stop()
+    {
+        _isTimerStopped = true;
+    }
 }

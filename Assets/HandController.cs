@@ -43,6 +43,7 @@ namespace DefaultNamespace
 
         public void Finish()
         {
+            _starsController.Stop();
             _carMove.Finish();
         }
     }
