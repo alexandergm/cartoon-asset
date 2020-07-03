@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace DefaultNamespace
 {
@@ -7,6 +8,8 @@ namespace DefaultNamespace
     {
         [SerializeField] private StarsController _starsController;
         [SerializeField] private Animals _animals;
+        [SerializeField] private ChangeColorCar[] _cars;
+        [SerializeField] private CarMove _carMove;
 
         public void StarDelete()
         {
@@ -21,6 +24,26 @@ namespace DefaultNamespace
         public void StartBird()
         {
             _animals.Bird.SetTrigger("Start");
+        }
+        
+        public void StartCat()
+        {
+            _animals.Cat.SetTrigger("Start");
+        }
+
+        public void ChangeColorOk(int car)
+        {
+            _cars[car].Ok();
+        }
+        
+        public void ChangeColorFail(int car)
+        {
+            _cars[car].Fail();
+        }
+
+        public void Finish()
+        {
+            _carMove.Finish();
         }
     }
 }

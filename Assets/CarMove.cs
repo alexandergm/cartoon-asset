@@ -9,6 +9,7 @@ public class CarMove : MonoBehaviour
     [SerializeField] private CinematicController _cinematicController;
     private Vector3 _movingVector;
     private bool _isCarStopped = false;
+    private bool _isFinished = false;
     void Start()
     {
        
@@ -19,17 +20,29 @@ public class CarMove : MonoBehaviour
     {
         if (_isCarStopped) return;
         //Debug.Log(transform.position.z);
-        if (transform.position.z < 37.68f)
+        if (transform.position.z < 42.10f)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + Time.deltaTime*_speed);
             return;
         }
 
+        if (_isFinished)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + Time.deltaTime*_speed);
+            return;
+        }
+        
         if (!_isCarStopped)
         {
             _cinematicController.StartLevel();
             _isCarStopped = true;
         }
         
+    }
+
+    public void Finish()
+    {
+        _isFinished = true;
+        _isCarStopped = false;
     }
 }

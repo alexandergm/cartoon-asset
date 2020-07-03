@@ -24,7 +24,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8afa8026-423b-4096-848a-446bfcd01407" name="Default Changelist" comment="" />
+    <list default="true" id="8afa8026-423b-4096-848a-446bfcd01407" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CarMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CarMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CursorAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CursorAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo_Scene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,22 +42,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CinematicController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CarMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StarsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Animals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnimalDisable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeColorCar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HandController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CinematicController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Animals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StarsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CarMove.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CarMove.cs" />
         <option value="$PROJECT_DIR$/Assets/CinematicController.cs" />
         <option value="$PROJECT_DIR$/Assets/test.cs" />
         <option value="$PROJECT_DIR$/Assets/StarsController.cs" />
         <option value="$PROJECT_DIR$/Assets/Animals.cs" />
         <option value="$PROJECT_DIR$/Assets/AnimalDisable.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeColorCar.cs" />
+        <option value="$PROJECT_DIR$/Assets/CarMove.cs" />
         <option value="$PROJECT_DIR$/Assets/HandController.cs" />
       </list>
     </option>
@@ -93,6 +103,7 @@
       <updated>1593703545936</updated>
       <workItem from="1593703560184" duration="416000" />
       <workItem from="1593704010963" duration="7899000" />
+      <workItem from="1593755950619" duration="3753000" />
     </task>
     <servers />
   </component>
