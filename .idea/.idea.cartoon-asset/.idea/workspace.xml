@@ -25,9 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8afa8026-423b-4096-848a-446bfcd01407" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.cartoon-asset/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HandController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HandController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StarsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StarsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BirdAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BirdAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CatAnimation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CatAnimation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PigAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PigAnim.anim" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
